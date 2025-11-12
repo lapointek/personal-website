@@ -153,7 +153,6 @@ nav a.active {
 
 .social-icons a {
   display: inline-flex;
-  height: 4rem;
   font-size: 2rem;
   margin: 3rem 1.5rem 3rem 0;
   color: var(--text);
