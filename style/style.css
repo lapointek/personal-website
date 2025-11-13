@@ -235,23 +235,13 @@ nav a.active {
 @media (max-width: 995px) {
   nav {
     position: absolute;
-    display: block;
+    display: flex;
     top: 100%;
-    right: 0;
-    width: 30%;
-    background-color: var(--overlay);
-  }
-
-  nav .active {
-    display: block;
-    background-color: var(--overlay);
   }
 
   nav a {
-    display: block;
-    margin: 2rem 0;
-    padding-left: 20px;
-    background-color: var(--overlay);
+    padding-top: 40px;
+    margin: 15px;
   }
 }
 
@@ -301,10 +291,6 @@ nav a.active {
   }
 
   .about-box {
-    padding: 1rem;
-  }
-
-  .box {
     padding: 1rem;
   }
 }
