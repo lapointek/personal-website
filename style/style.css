@@ -185,6 +185,7 @@ nav a.active {
   border-style: solid;
   padding: 40px;
   color: var(--foam);
+  height: auto;
 }
 
 .about-description {
@@ -308,6 +309,6 @@ nav a.active {
   }
 
   .about-box {
-    width: 130%;
+    padding: 1rem;
   }
 }
