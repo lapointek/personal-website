@@ -102,8 +102,7 @@ nav a.active {
 }
 
 .row {
-  height: 1000px;
-  overflow-y: auto;
+  height: auto;
   border: 1px solid var(--foam);
 }
 
