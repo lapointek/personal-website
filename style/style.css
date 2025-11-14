@@ -185,7 +185,7 @@ nav a.active {
   padding: 40px;
   color: var(--foam);
   height: auto;
-  width: 50%;
+  width: 40%;
 }
 
 .about-description {
@@ -266,13 +266,19 @@ nav a.active {
   }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:700px) {
   .column {
     width: 100%;
   }
 }
 
-@media (max-width: 995px) {
+@media (max-width: 900px) {
   .home {
     margin: 5rem 1rem;
     min-height: 0px;
