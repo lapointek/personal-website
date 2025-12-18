@@ -99,7 +99,7 @@ nav a.active {
 }
 
 /* id */
-#myBtn {
+#topBtn {
     display: none;
     position: fixed;
     right: 20px;
@@ -251,7 +251,7 @@ nav a.active {
 @keyframes words {
     0%,
     30% {
-        content: "web developer";
+        content: "full-stack developer";
     }
     90%,
     100% {
