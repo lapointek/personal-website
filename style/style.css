@@ -41,7 +41,7 @@ li {
 
 p {
     color: var(--text);
-    font-size: 17px;
+    font-size: 16px;
     padding: 6px;
     line-height: 1.4;
     height: 5em;
@@ -89,17 +89,17 @@ header {
 }
 
 nav a {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color: var(--text);
-    margin-left: 4rem;
-    transition: 0.3s ease;
-    border-bottom: 3px solid transparent;
+    margin: 1.5rem;
+    transition: 0.2s ease;
+    border-bottom: 1px solid transparent;
 }
 
 nav a:hover,
 nav a.active {
     color: var(--foam);
-    border-bottom: 3px solid var(--foam);
+    border-bottom: 1px solid var(--foam);
 }
 
 /* id */
@@ -168,7 +168,7 @@ nav a.active {
 
 .social-icons a {
     display: inline-flex;
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     margin: 3rem 1.5rem 3rem 0;
     color: var(--text);
     transition: color 0.2s ease-out;
@@ -313,6 +313,6 @@ nav a.active {
     }
 
     nav a {
-        margin: 10px;
+        margin: 15px;
     }
 }
