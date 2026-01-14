@@ -155,7 +155,7 @@ nav a:focus {
 
 .column {
   float: left;
-  width: 25%;
+  width: 33.333%;
 }
 
 .content {
@@ -171,7 +171,8 @@ nav a:focus {
 }
 
 .gallery {
-  padding: 5rem 9% 5rem;
+  padding: 5rem 7% 5rem;
+  width: 100%;
 }
 
 .social-icons a {
