@@ -42,6 +42,45 @@
         </div>
       </nav>
     </header>
+    <div class="form-body">
+      <div class="form-container">
+        <form class="form" method="post" action="">
+          <div class="form-group">
+            <label for="Name" class="label">Your name</label>
+            <div class="input-group">
+              <input type="text" class="name" name="Name" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="Email" class="label">Your email address</label>
+            <div class="input-group">
+              <input type="email" class="email" name="Email" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="Message" class="label">Your message</label>
+            <div class="input-group">
+              <textarea
+                class="message"
+                name="Message"
+                rows="6"
+                maxlength="3000"
+                required
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
     <script src="./scripts/main.js"></script>
   </body>
 </html>
