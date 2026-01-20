@@ -39,15 +39,6 @@ ul {
   font-size: 1.6rem;
 }
 
-p {
-  color: var(--text);
-  font-size: 16px;
-  padding: 6px;
-  line-height: 1.4;
-  height: 5em;
-  overflow: auto;
-}
-
 b {
   color: var(--foam);
 }
@@ -95,6 +86,14 @@ header {
   padding: 13% 7%;
 }
 
+#form-status {
+  width: 100%;
+  height: 20px;
+  font-size: 15px;
+  padding-left: 10px;
+  color: var(--rose);
+}
+
 .form-container {
   border: 1px solid var(--highlightHigh);
   background-color: var(--highlightLow);
@@ -104,7 +103,7 @@ header {
   width: 800px;
 }
 
-.label {
+.form-label {
   color: var(--text);
   font-size: 15px;
 }
