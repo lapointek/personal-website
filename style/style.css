@@ -144,9 +144,11 @@ header {
   background-color: var(--highlightHigh);
 }
 
-.btn:hover {
-  cursor: pointer;
-  background-color: var(--highlightMed);
+@media (hover: hover) and (pointer: fine) {
+  .btn:hover {
+    cursor: pointer;
+    background-color: var(--highlightMed);
+  }
 }
 
 .form-group {
