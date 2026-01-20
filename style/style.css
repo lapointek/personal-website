@@ -105,7 +105,7 @@ header {
 }
 
 .form-container {
-  border: 1px solid var(--highlightHigh);
+  border: 1px solid var(--highlightMed);
   background-color: var(--highlightLow);
   border-radius: 10px;
   padding: 40px;
