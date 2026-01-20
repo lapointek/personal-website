@@ -34,13 +34,9 @@ li {
   font-size: 17px;
 }
 
-p {
+ul {
   color: var(--text);
-  font-size: 16px;
-  padding: 6px;
-  line-height: 1.4;
-  height: 5em;
-  overflow: auto;
+  font-size: 1.6rem;
 }
 
 b {
@@ -65,7 +61,6 @@ h3 {
 h4 {
   font-size: 22px;
   color: var(--pine);
-  margin-top: 10px;
 }
 
 header {
@@ -78,9 +73,77 @@ header {
   border-bottom: 1px solid var(--foam);
 }
 
+.projects-section,
+.coursework-section {
+  padding-top: 20px;
+}
+
+.form-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 13% 7%;
+}
+
+#form-status {
+  width: 100%;
+  height: 20px;
+  font-size: 15px;
+  padding-left: 10px;
+  color: var(--rose);
+}
+
+.form-container {
+  border: 1px solid var(--highlightHigh);
+  background-color: var(--highlightLow);
+  border-radius: 10px;
+  padding: 40px;
+  box-sizing: border-box;
+  width: 800px;
+}
+
+.form-label {
+  color: var(--text);
+  font-size: 15px;
+}
+
+.input-group input {
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  background-color: var(--text);
+}
+
+.input-group textarea {
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  height: 150px;
+  background-color: var(--text);
+}
+
+.btn {
+  border-radius: 3px;
+  padding: 10px;
+  width: 100%;
+  color: var(--text);
+  font-size: 15px;
+  background-color: var(--highlightHigh);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--highlightMed);
+}
+
+.form-group {
+  padding: 10px;
+}
+
 .nav-item {
   list-style: none;
-  padding: 15px;
+  padding: 8px;
 }
 
 .navbar {
@@ -93,7 +156,6 @@ header {
 
 .nav-menu {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -256,12 +318,6 @@ header {
   padding: 50px;
 }
 
-.inner-box ul {
-  color: var(--text);
-  font-size: 1.6rem;
-  padding: 10px;
-}
-
 .outer-box {
   display: flex;
   justify-content: center;
@@ -326,6 +382,12 @@ header {
 
 @media (max-width: 768px) {
   .outer-box {
+    margin: 5rem 0rem;
+    padding: 60px 30px;
+    min-height: 0px;
+  }
+
+  .form-body {
     margin: 5rem 0rem;
     padding: 60px 30px;
     min-height: 0px;
