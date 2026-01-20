@@ -141,7 +141,7 @@ header {
   width: 100%;
   color: var(--text);
   font-size: 1.5rem;
-  background-color: var(--highlightHigh);
+  background-color: var(--pine);
 }
 
 @media (hover: hover) and (pointer: fine) {
