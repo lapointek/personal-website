@@ -27,7 +27,7 @@ body {
 
 html {
   font-size: 60%;
-  -webkit-text-size-adjust: 60%;
+  -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 
