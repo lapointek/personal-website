@@ -78,7 +78,9 @@ header {
   padding-top: 20px;
 }
 
-.inner-box ul {
+.coursework-section,
+.projects-section,
+.education-section li {
   font-size: 1.6rem;
 }
 
