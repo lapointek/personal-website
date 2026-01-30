@@ -185,12 +185,13 @@ header {
 .nav-menu {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .navbar .nav-link {
   color: var(--text);
   font-size: 1.6rem;
-  margin: 1.3em;
+  margin: 1.3rem;
   font-weight: bold;
   transition: color 0.5s ease-out;
 }
