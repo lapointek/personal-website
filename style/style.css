@@ -21,9 +21,6 @@ body {
   width: 100%;
   min-height: 100vh;
   flex-direction: column;
-  background: white;
-  background-image: radial-gradient(var(--overlay) 1px, transparent 0px);
-  background-size: 5px 5px;
   background-color: var(--base);
   z-index: 998;
 }
@@ -87,6 +84,11 @@ header {
   padding: 1.5rem;
   z-index: 999;
   border-bottom: 1px solid var(--foam);
+}
+
+.overlay {
+  background-color: blue;
+  z-index: 99999;
 }
 
 .projects-section,
@@ -160,6 +162,7 @@ header {
   color: var(--text);
   font-size: 1.6rem;
   background-color: var(--pine);
+  transition: all 0.3s ease-in-out;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -198,7 +201,7 @@ header {
 .navbar .nav-link {
   color: var(--text);
   font-size: 1.8rem;
-  margin: 1rem;
+  margin: 0.5rem;
   z-index: 999;
   transition: all 0.3s ease-out;
   padding: 5px 10px;
@@ -233,7 +236,7 @@ header {
   list-style: none;
   text-align: center;
   background-color: var(--base);
-  border-top: 1px solid var(--highlightMed);
+  border-top: 1px solid var(--overlay);
 }
 
 .footer-link {
@@ -295,9 +298,10 @@ header {
 
 .content {
   background-color: var(--surface);
-  padding: 10px;
+  padding: 12px;
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
   height: 315px;
 }
 
@@ -308,6 +312,10 @@ header {
   transition: transform 0.5s ease;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -388,7 +396,7 @@ header {
 }
 
 .logo {
-  font-size: 3.1rem;
+  font-size: 3.3rem;
   padding: 0px;
   font-family: "Poppins", sans-serif;
   color: var(--pine);
