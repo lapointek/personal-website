@@ -159,7 +159,12 @@ header {
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .btn.active,
+  .btn {
+    transition: all 0.3s ease-in-out;
+    transition-delay: 0s;
+  }
+
+  .btn:active,
   .btn:hover {
     cursor: pointer;
     color: var(--subtle);
