@@ -155,21 +155,12 @@ header {
   color: var(--text);
   font-size: 1.6rem;
   background-color: var(--pine);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .btn {
-    transition: all 0.3s ease-in-out;
-    transition-delay: 0s;
-  }
-
-  .btn:active,
   .btn:hover {
-    cursor: pointer;
     color: var(--subtle);
-    background-color: #286983;
-    transition-delay: 300ms;
   }
 }
 
@@ -199,7 +190,7 @@ header {
 
 .navbar .nav-link {
   color: var(--text);
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 0.5rem;
   transition: all 0.3s ease-out;
   padding: 8px 12px;
@@ -571,6 +562,10 @@ header {
 
   .navbar {
     justify-content: space-between;
+  }
+
+  .navbar .nav-link {
+    font-size: 2rem;
   }
 
   .footer {
