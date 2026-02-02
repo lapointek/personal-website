@@ -79,11 +79,6 @@ header {
   border-bottom: 1px solid var(--foam);
 }
 
-.overlay {
-  background-color: blue;
-  z-index: 99999;
-}
-
 .projects-section,
 .coursework-section {
   padding-top: 20px;
