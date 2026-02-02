@@ -150,13 +150,13 @@ header {
   color: var(--text);
   font-size: 1.6rem;
   background-color: var(--pine);
-  transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
 
 @media (hover: hover) and (pointer: fine) {
   .btn:hover {
     color: var(--subtle);
+    background-color: #286983;
   }
 }
 
