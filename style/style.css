@@ -79,9 +79,13 @@ header {
   border-bottom: 1px solid var(--foam);
 }
 
-.projects-section,
-.coursework-section {
-  padding-top: 20px;
+.coursework-section,
+.education-section {
+  padding-top: 30px;
+}
+
+.projects-section {
+  padding-bottom: 30px;
 }
 
 .coursework-section,
@@ -386,6 +390,10 @@ header {
   align-items: center;
   min-height: 100vh;
   padding: 13% 7%;
+}
+
+.education-container {
+  padding: 2% 7%;
 }
 
 .logo {
