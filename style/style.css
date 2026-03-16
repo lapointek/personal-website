@@ -116,10 +116,11 @@ header {
 
 .form-container {
   background-color: var(--surface);
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 30px;
   box-sizing: border-box;
   width: 800px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .form-label {
@@ -336,7 +337,7 @@ header {
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;
-  background: rgba(0, 0, 0, 0.6);
+  background-color: rgba(25, 23, 36, 0.8);
 }
 
 .proj-title {
@@ -377,9 +378,10 @@ header {
 
 .bio-box {
   background-color: var(--surface);
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 40px;
   width: 800px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .bio-description {
@@ -390,9 +392,10 @@ header {
 }
 
 .inner-box {
-  border-radius: 10px;
+  border-radius: 12px;
   background-color: var(--surface);
   padding: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .outer-box {
