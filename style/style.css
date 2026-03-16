@@ -22,6 +22,8 @@ body {
   min-height: 100vh;
   flex-direction: column;
   background-color: var(--base);
+  background-image: radial-gradient(var(--overlay) 1px, transparent 0px);
+  background-size: 5px 5px;
   z-index: 998;
 }
 
@@ -58,15 +60,20 @@ b {
 
 h1 {
   color: var(--pine);
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 h3 {
   color: var(--pine);
+  font-weight: 500;
 }
 
 h4 {
   font-size: 2.2rem;
   color: var(--pine);
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 header {
@@ -77,6 +84,7 @@ header {
   padding: 1.5rem;
   z-index: 999;
   border-bottom: 1px solid var(--foam);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 }
 
 .coursework-section,
@@ -121,6 +129,14 @@ header {
   box-sizing: border-box;
   width: 800px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--overlay);
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+.form-container:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
 }
 
 .form-label {
@@ -155,6 +171,7 @@ header {
   color: var(--text);
   font-size: 1.6rem;
   background-color: var(--pine);
+  transition: all 0.2s ease-out;
   cursor: pointer;
 }
 
@@ -195,6 +212,7 @@ header {
   transition: all 0.3s ease-out;
   padding: 7px 10px;
   border-radius: 5px;
+  display: inline-block;
 }
 
 .navbar .nav-link:hover,
@@ -355,7 +373,7 @@ header {
 }
 
 .typing-text {
-  font-size: 3.4rem;
+  font-size: 3.5rem;
   min-width: 310px;
 }
 
@@ -382,6 +400,14 @@ header {
   padding: 40px;
   width: 800px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--overlay);
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+.bio-box:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
 }
 
 .bio-description {
@@ -396,6 +422,14 @@ header {
   background-color: var(--surface);
   padding: 50px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--overlay);
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+.inner-box:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
 }
 
 .outer-box {
@@ -427,7 +461,7 @@ header {
 }
 
 .title h1 {
-  font-size: 6.5rem;
+  font-size: 6.8rem;
   line-height: 1.3;
 }
 
