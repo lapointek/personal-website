@@ -22,8 +22,6 @@ body {
   min-height: 100vh;
   flex-direction: column;
   background-color: var(--base);
-  background-image: radial-gradient(var(--overlay) 1px, transparent 0px);
-  background-size: 5px 5px;
   z-index: 998;
 }
 
