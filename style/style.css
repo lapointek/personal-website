@@ -128,13 +128,6 @@ header {
   width: 800px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   border: 1px solid var(--overlay);
-  transition:
-    box-shadow 0.3s ease,
-    transform 0.3s ease;
-}
-
-.form-container:hover {
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
 }
 
 .form-label {
@@ -399,13 +392,6 @@ header {
   width: 800px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   border: 1px solid var(--overlay);
-  transition:
-    box-shadow 0.3s ease,
-    transform 0.3s ease;
-}
-
-.bio-box:hover {
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
 }
 
 .bio-description {
@@ -421,13 +407,6 @@ header {
   padding: 50px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   border: 1px solid var(--overlay);
-  transition:
-    box-shadow 0.3s ease,
-    transform 0.3s ease;
-}
-
-.inner-box:hover {
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
 }
 
 .outer-box {
