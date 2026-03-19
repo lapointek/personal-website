@@ -87,11 +87,12 @@ header {
 
 .foundations-layout {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 25px;
   padding: 13% 7%;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
+  margin: auto;
 }
 
 .foundations-card {
@@ -635,6 +636,7 @@ body.menu-open main {
   .about-container {
     margin: 5rem 0rem;
     padding: 60px 30px;
+    grid-template-columns: auto;
     min-height: 0px;
   }
 
