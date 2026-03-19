@@ -65,11 +65,12 @@ h1 {
 h3 {
   color: var(--pine);
   font-weight: 500;
+  font-size: 2.2rem;
 }
 
 h4 {
-  font-size: 2.2rem;
-  color: var(--pine);
+  font-size: 1.8rem;
+  color: var(--iris);
   font-weight: 600;
   letter-spacing: -0.01em;
 }
@@ -84,23 +85,23 @@ header {
   border-bottom: 1px solid var(--foam);
 }
 
-.coursework-section,
+.project-section ul,
+.technical-section ul,
+.education-section ul {
+  padding-left: 20px;
+}
+
+.technical-section,
 .education-section {
   padding-top: 30px;
 }
-
-.projects-section {
-  padding-bottom: 30px;
-}
-
-.coursework-section,
-.projects-section,
-.education-section li {
-  font-size: 1.6rem;
-}
-
 .inner-box li {
   font-size: 1.8rem;
+}
+
+.project-group,
+.education-group {
+  list-style-type: none;
 }
 
 .form-body {
