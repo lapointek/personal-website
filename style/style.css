@@ -86,15 +86,119 @@ header {
 }
 
 .project-section ul,
-.technical-section ul,
 .education-section ul {
   padding-left: 10px;
+}
+
+.foundations-layout {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 25px;
+  min-height: 100vh;
+  padding: 13% 7%;
+  justify-content: center;
+  align-items: center;
+}
+
+.foundations-card,
+.education-section {
+  flex-direction: column;
+}
+
+.foundations-card {
+  background-color: var(--surface);
+  border-radius: 12px;
+  padding: 30px;
+  border: 1px solid var(--overlay);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  min-height: 300px;
+}
+
+.foundations-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--overlay);
+  font-size: 2.6rem;
+}
+
+.card-icon {
+  color: var(--pine);
+  font-size: 2.4rem;
+}
+
+.project-group {
+  border-radius: 8px;
+  padding: 20px;
+  transition: background-color 0.2s ease;
+  font-size: 1.6rem;
+}
+
+.project-group:hover {
+  background-color: var(--overlay);
+}
+
+.project-group h4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.9rem;
+}
+
+.project-icon {
+  color: var(--pine);
+  font-size: 1.8rem;
+}
+
+.project-bullets {
+  padding-left: 10px;
+  font-size: 1.5rem;
+}
+
+.project-bullets li {
+  margin-bottom: 6px;
+}
+
+.skills-list {
+  font-size: 1.6rem;
+  padding-left: 30px;
+}
+
+.skills-list li {
+  padding: 10px 0;
+
+  border-bottom: 1px solid var(--overlay);
+  transition: padding-left 0.2s ease;
+}
+
+.skills-list li:hover {
+  padding-left: 8px;
+}
+
+.edu-detail {
+  color: var(--muted);
+  font-size: 1.6rem;
+  margin: 4px 0 10px 26px;
+}
+
+.education-group {
+  border-radius: 8px;
+  padding: 20px;
+  transition: background-color 0.2s ease;
+  font-size: 1.6rem;
+}
+
+.education-group:hover {
+  background-color: var(--overlay);
 }
 
 .technical-section,
 .education-section {
   padding-top: 30px;
 }
+
 .inner-box li {
   font-size: 1.8rem;
 }
@@ -545,7 +649,7 @@ body.menu-open main {
 }
 
 @media (max-width: 768px) {
-  .outer-box {
+  .foundations-layout {
     margin: 5rem 0rem;
     padding: 60px 30px;
     min-height: 0px;
