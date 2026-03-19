@@ -85,24 +85,13 @@ header {
   border-bottom: 1px solid var(--foam);
 }
 
-.project-section ul,
-.education-section ul {
-  padding-left: 10px;
-}
-
 .foundations-layout {
   display: grid;
   grid-template-columns: auto;
   gap: 25px;
-  min-height: 100vh;
   padding: 13% 7%;
   justify-content: center;
   align-items: center;
-}
-
-.foundations-card,
-.education-section {
-  flex-direction: column;
 }
 
 .foundations-card {
@@ -111,7 +100,6 @@ header {
   padding: 30px;
   border: 1px solid var(--overlay);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  min-height: 300px;
 }
 
 .foundations-card h3 {
@@ -133,13 +121,13 @@ header {
   border-radius: 8px;
   padding: 20px;
   transition: background-color 0.2s ease;
-  font-size: 1.6rem;
 }
 
 .project-group:hover {
   background-color: var(--overlay);
 }
 
+.education-group h4,
 .project-group h4 {
   display: flex;
   align-items: center;
@@ -154,7 +142,7 @@ header {
 
 .project-bullets {
   padding-left: 10px;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .project-bullets li {
@@ -168,7 +156,6 @@ header {
 
 .skills-list li {
   padding: 10px 0;
-
   border-bottom: 1px solid var(--overlay);
   transition: padding-left 0.2s ease;
 }
@@ -187,7 +174,6 @@ header {
   border-radius: 8px;
   padding: 20px;
   transition: background-color 0.2s ease;
-  font-size: 1.6rem;
 }
 
 .education-group:hover {
@@ -197,10 +183,6 @@ header {
 .technical-section,
 .education-section {
   padding-top: 30px;
-}
-
-.inner-box li {
-  font-size: 1.8rem;
 }
 
 .project-group,
@@ -493,7 +475,7 @@ body.menu-open main {
   animation: cursor 1.3s infinite;
 }
 
-.bio-box {
+.about-box {
   background-color: var(--surface);
   border-radius: 12px;
   padding: 40px;
@@ -502,7 +484,7 @@ body.menu-open main {
   border: 1px solid var(--overlay);
 }
 
-.bio-description {
+.about-description {
   font-size: 1.8rem;
   color: var(--text);
   height: 100%;
@@ -517,7 +499,7 @@ body.menu-open main {
   border: 1px solid var(--overlay);
 }
 
-.outer-box {
+.about-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -649,7 +631,8 @@ body.menu-open main {
 }
 
 @media (max-width: 768px) {
-  .foundations-layout {
+  .foundations-layout,
+  .about-container {
     margin: 5rem 0rem;
     padding: 60px 30px;
     min-height: 0px;
