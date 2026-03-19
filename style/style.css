@@ -223,27 +223,35 @@ body.menu-open main {
 
 .form-label {
   color: var(--text);
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 8px;
 }
 
-.input-group input {
-  border-radius: 5px;
-  padding: 5px;
-  font-size: 14px;
-  width: 100%;
-  color: var(--text);
-  background-color: var(--overlay);
-}
-
+.input-group input,
 .input-group textarea {
   border-radius: 5px;
-  padding: 5px;
-  font-size: 14px;
-  resize: none;
+  padding: 12px 15px;
+  font-size: 16px;
   width: 100%;
-  height: 150px;
+  resize: none;
   color: var(--text);
   background-color: var(--overlay);
+  border: 1px solid var(--highlightMed);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: var(--pine);
+  box-shadow: 0 0 0 3px rgba(70, 97, 110, 0.2);
+  outline: none;
+}
+
+.input-group {
+  margin-bottom: 20px;
 }
 
 .btn {
