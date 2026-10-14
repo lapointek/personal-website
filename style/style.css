@@ -230,6 +230,13 @@ body.menu-open main {
   color: var(--text);
   background-color: var(--overlay);
   border: 1px solid var(--border);
+  transition: border-color 0.3s ease-out;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  outline: none;
+  border-color: var(--accent);
 }
 
 .input-group {
@@ -243,7 +250,7 @@ body.menu-open main {
   color: var(--text);
   font-size: 1.6rem;
   background-color: var(--accent);
-  transition: all 0.2s ease-out;
+  transition: all 0.3s ease-out;
   cursor: pointer;
 }
 
@@ -333,7 +340,7 @@ body.menu-open main {
   font-size: 2.7rem;
   padding: 1.5rem 1rem 2rem 1rem;
   color: var(--muted);
-  transition: color 0.5s ease-out;
+  transition: color 0.3s ease-out;
 }
 
 @media (hover: hover) and (pointer: fine) {
