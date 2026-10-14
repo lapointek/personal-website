@@ -1,0 +1,14 @@
+:root {
+  --base: #0a0b0d; /* true dark, slightly warm */
+  --surface: #13151a; /* +4.3% luminance — clearly a card */
+  --overlay: #1c1f26; /* +4.1% — hover states, dropdowns */
+
+  --border: #282c34; /* subtle separation */
+  --muted: #6e7581; /* captions, metadata */
+  --subtle: #9ba1ab; /* secondary text */
+  --text: #e4e7ec; /* primary text, never pure white */
+
+  --accent: #6ea8fe; /* link blue — your single color */
+  --accent-hover: #8dbaff;
+  --accent-active: #4e88de;
+}
