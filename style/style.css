@@ -265,8 +265,14 @@ body.menu-open main {
   }
 }
 
-.form-group {
-  padding: 10px 0px;
+.form-group1,
+.form-group2,
+.form-group3 {
+  padding: 10px 0px 0px;
+}
+
+.form-group1 {
+  padding: 15px 0px 0px;
 }
 
 .nav-item {
