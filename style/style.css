@@ -86,7 +86,7 @@ header {
   width: 100vw;
   padding: 1.5rem;
   z-index: 999;
-  border-bottom: 1px solid var(--muted);
+  border-bottom: 1px solid var(--accent);
 }
 
 .line {
