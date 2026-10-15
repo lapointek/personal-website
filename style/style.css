@@ -160,7 +160,7 @@ header {
 }
 
 .edu-detail {
-  color: var(--subtle);
+  color: var(--text);
   font-size: 1.6rem;
   margin: 4px 0 10px 26px;
 }
@@ -333,7 +333,7 @@ body.menu-open main {
   text-align: center;
   background-color: var(--base);
   border-top: 1px solid var(--border);
-  padding: 10px;
+  padding: 15px;
 }
 
 .footer-link {
@@ -349,7 +349,7 @@ body.menu-open main {
 .social-icons a {
   display: inline-flex;
   font-size: 2.7rem;
-  padding: 1.5rem 1rem 2rem 1rem;
+  padding: 1rem;
   color: var(--muted);
   transition: color 0.3s ease-out;
 }
@@ -522,10 +522,6 @@ video {
   align-items: center;
   min-height: 100vh;
   padding: 13% 7%;
-}
-
-.education-container {
-  padding: 2% 7%;
 }
 
 .logo {
