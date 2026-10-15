@@ -343,7 +343,7 @@ body.menu-open main {
 .footer-name {
   color: var(--muted);
   font-size: 1.8rem;
-  padding: 0rem 0rem 1.5rem 0rem;
+  padding: 1.5rem 0rem 0rem 0rem;
 }
 
 .social-icons a {
