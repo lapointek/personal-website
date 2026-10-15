@@ -89,6 +89,12 @@ header {
   border-bottom: 1px solid var(--muted);
 }
 
+.line {
+  width: 100%;
+  padding: 20px 0px 0px 0px;
+  border-bottom: 1px solid var(--border);
+}
+
 .foundations-layout {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -203,8 +209,7 @@ body.menu-open main {
   width: 100%;
   height: 20px;
   font-size: 1.5rem;
-  padding-left: 10px;
-  color: var(--rose);
+  color: var(--warning);
 }
 
 .form-container {
@@ -571,41 +576,6 @@ video {
   font-size: 1.6rem;
   padding: 10px 0px 0px 0px;
   font-weight: normal;
-}
-
-.hr-text {
-  border: 0;
-  line-height: 1em;
-  position: relative;
-  outline: 0;
-  padding: 0px 0px 0px 0px;
-  color: var(--subtle);
-  text-align: center;
-  opacity: 0.5;
-  font-size: 14px;
-  &:before {
-    content: "";
-    background: linear-gradient(
-      to right,
-      transparent,
-      var(--subtle),
-      transparent
-    );
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    height: 2px;
-  }
-  &:after {
-    content: attr(none);
-    position: relative;
-    display: inline-block;
-    padding: 0 0.5em;
-    line-height: 1.5em;
-    color: var(--subtle);
-    background-color: var(--overlay);
-  }
 }
 
 @keyframes cursor {
