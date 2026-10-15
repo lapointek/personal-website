@@ -574,6 +574,7 @@ video {
 .contact-link-title {
   font-size: 1.6rem;
   padding: 10px 0px 0px 0px;
+  font-weight: normal;
 }
 
 .hr-text {
