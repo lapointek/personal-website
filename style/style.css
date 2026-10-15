@@ -48,6 +48,10 @@ li {
   padding: 5px;
 }
 
+li::marker {
+  color: var(--subtle);
+}
+
 ul {
   color: var(--text);
 }
@@ -57,15 +61,15 @@ b {
 }
 
 h1 {
-  color: var(--subtle);
+  color: var(--text);
   font-weight: 700;
   letter-spacing: -0.02em;
 }
 
 h3 {
-  color: var(--subtle);
-  font-weight: 500;
-  font-size: 2.2rem;
+  color: var(--text);
+  font-weight: bold;
+  font-size: 2.3rem;
 }
 
 h4 {
@@ -110,11 +114,11 @@ header {
   margin-bottom: 30px;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--border);
-  font-size: 2.6rem;
+  font-size: 2.3rem;
 }
 
 .card-icon {
-  color: var(--subtle);
+  color: var(--text);
   font-size: 2.4rem;
 }
 
@@ -132,7 +136,7 @@ header {
 }
 
 .project-icon {
-  color: var(--muted);
+  color: var(--subtle);
   font-size: 1.8rem;
 }
 
@@ -156,7 +160,7 @@ header {
 }
 
 .edu-detail {
-  color: var(--muted);
+  color: var(--subtle);
   font-size: 1.6rem;
   margin: 4px 0 10px 26px;
 }
@@ -188,7 +192,7 @@ header {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 13% 7%;
+  padding: 15% 7%;
 }
 
 body.menu-open main {
@@ -262,7 +266,7 @@ body.menu-open main {
 }
 
 .form-group {
-  padding: 10px;
+  padding: 10px 0px;
 }
 
 .nav-item {
@@ -323,6 +327,7 @@ body.menu-open main {
   text-align: center;
   background-color: var(--base);
   border-top: 1px solid var(--border);
+  padding: 10px;
 }
 
 .footer-link {
@@ -470,7 +475,7 @@ video {
 
 .typing-text span::before {
   content: "full-stack development";
-  color: var(--muted);
+  color: var(--subtle);
   animation: words 20s infinite;
 }
 
@@ -520,8 +525,8 @@ video {
 .logo {
   font-size: 3.3rem;
   padding: 0px;
-  font-family: "Poppins", sans-serif;
-  color: var(--subtle);
+  font-family: "Inter", sans-serif;
+  color: var(--text);
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
