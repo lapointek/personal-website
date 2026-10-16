@@ -411,6 +411,7 @@ body.menu-open main {
     transform 0.3s ease,
     box-shadow 0.3s ease;
   padding: 0;
+  border: 1px solid var(--border);
 }
 
 img {
@@ -471,7 +472,7 @@ video {
 }
 
 .gallery {
-  padding: 12% 5%;
+  padding: 10% 5%;
   width: 100%;
 }
 
@@ -607,6 +608,22 @@ video {
   }
 }
 
+@media screen and (hover: none) {
+  .content.active img,
+  .content.active video {
+    filter: blur(4px);
+  }
+
+  .content.active .proj-title-container {
+    opacity: 1;
+  }
+
+  .gallery {
+    padding: 15% 5%;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .row {
     display: grid;
@@ -622,15 +639,6 @@ video {
   .typing-text {
     font-size: 3.8rem;
     min-width: 310px;
-  }
-
-  .content.active img,
-  .content.active video {
-    filter: blur(4px);
-  }
-
-  .content.active .proj-title-container {
-    opacity: 1;
   }
 }
 
