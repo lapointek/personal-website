@@ -623,6 +623,15 @@ video {
     font-size: 3.8rem;
     min-width: 310px;
   }
+
+  .content.active img,
+  .content.active video {
+    filter: blur(4px);
+  }
+
+  .content.active .proj-title-container {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 768px) {
