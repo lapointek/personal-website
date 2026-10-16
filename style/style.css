@@ -600,7 +600,7 @@ video {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
