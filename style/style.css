@@ -1,4 +1,12 @@
 @font-face {
+  font-family: "geist-pixel";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/geist-pixel-normal.woff2") format("woff2");
+}
+
+@font-face {
   font-family: "Inter";
   font-weight: normal;
   font-style: normal;
@@ -70,6 +78,7 @@ h3 {
   color: var(--text);
   font-weight: bold;
   font-size: 2.2rem;
+  font-family: "geist-pixel", sans-serif;
 }
 
 h4 {
@@ -77,6 +86,7 @@ h4 {
   color: var(--subtle);
   font-weight: 600;
   letter-spacing: -0.01em;
+  font-family: "geist-pixel", sans-serif;
 }
 
 header {
@@ -86,7 +96,7 @@ header {
   width: 100vw;
   padding: 1.5rem;
   z-index: 999;
-  border-bottom: 1px solid var(--subtle);
+  border-bottom: 1px solid var(--muted);
 }
 
 .line {
@@ -469,6 +479,7 @@ video {
   font-weight: 600;
   margin: 0;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  font-family: "geist-pixel", sans-serif;
 }
 
 .gallery {
@@ -479,10 +490,12 @@ video {
 .typing-text {
   font-size: 4rem;
   min-width: 310px;
+  font-family: "geist-pixel", sans-serif;
 }
 
 .typing-text span {
   position: relative;
+  font-family: "geist-pixel", sans-serif;
 }
 
 .typing-text span::before {
@@ -533,7 +546,7 @@ video {
 .logo {
   font-size: 3.3rem;
   padding: 0px;
-  font-family: "Inter", sans-serif;
+  font-family: "geist-pixel", sans-serif;
   color: var(--text);
   cursor: pointer;
   transition: all 0.3s ease-out;
@@ -550,6 +563,7 @@ video {
 .title h1 {
   font-size: 7rem;
   line-height: 1.3;
+  font-family: "geist-pixel", sans-serif;
 }
 
 .link-container {
