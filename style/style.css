@@ -359,6 +359,7 @@ body.menu-open main {
   color: var(--muted);
   font-size: 1.8rem;
   padding: 1rem 0rem 1rem 0rem;
+  font-family: "geist-pixel", sans-serif;
 }
 
 .social-icons a {
