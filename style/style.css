@@ -70,7 +70,6 @@ b {
 
 h1 {
   color: var(--text);
-  font-weight: 700;
   letter-spacing: -0.02em;
 }
 
@@ -466,7 +465,7 @@ video {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;
@@ -475,12 +474,19 @@ video {
 
 .proj-title {
   text-align: center;
-  color: var(--subtle);
+  color: var(--text);
   font-size: 2.2rem;
   font-weight: 600;
   margin: 0;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
   font-family: "geist-pixel", sans-serif;
+}
+
+.proj-subtitle {
+  text-align: center;
+  color: var(--subtle);
+  font-size: 1.6rem;
+  padding: 5px 0px 0px;
 }
 
 .gallery {
