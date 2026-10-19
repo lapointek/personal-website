@@ -487,6 +487,7 @@ video {
   color: var(--subtle);
   font-size: 1.6rem;
   padding: 5px 0px 0px;
+  font-family: "Inter", sans-serif;
 }
 
 .gallery {
