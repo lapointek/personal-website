@@ -465,7 +465,7 @@ video {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  padding: 10px;
+
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;
@@ -478,6 +478,7 @@ video {
   font-size: 2.2rem;
   font-weight: 600;
   margin: 0;
+  padding: 10px 0px 0px;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
   font-family: "geist-pixel", sans-serif;
 }
@@ -486,7 +487,7 @@ video {
   text-align: center;
   color: var(--accent);
   font-size: 1.6rem;
-  padding: 8px 0px 0px;
+  padding: 0px 0px 10px 0px;
   font-family: "Inter", sans-serif;
 }
 
@@ -494,7 +495,7 @@ video {
   text-align: center;
   color: var(--subtle);
   font-size: 1.6rem;
-  padding: 8px 0px 0px;
+  padding: 10px 0px;
   font-family: "Inter", sans-serif;
 }
 
