@@ -399,7 +399,7 @@ body.menu-open main {
 .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 25px;
 }
 
 .row::after {
@@ -482,11 +482,19 @@ video {
   font-family: "geist-pixel", sans-serif;
 }
 
-.proj-subtitle {
+.proj-link {
+  text-align: center;
+  color: var(--accent);
+  font-size: 1.6rem;
+  padding: 8px 0px 0px;
+  font-family: "Inter", sans-serif;
+}
+
+.proj-lang {
   text-align: center;
   color: var(--subtle);
   font-size: 1.6rem;
-  padding: 5px 0px 0px;
+  padding: 8px 0px 0px;
   font-family: "Inter", sans-serif;
 }
 
