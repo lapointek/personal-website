@@ -518,7 +518,7 @@ video {
 .typing-text span::before {
   content: "full-stack development";
   color: var(--subtle);
-  animation: words 20s infinite;
+  animation: words 15s infinite;
 }
 
 .typing-text span::after {
@@ -618,19 +618,19 @@ video {
 
 @keyframes words {
   0%,
-  25% {
+  24.9% {
     content: "full-stack development";
   }
   25%,
-  50% {
+  49.9% {
     content: "dev-ops";
   }
   50%,
-  75% {
+  74.9% {
     content: "cybersecurity";
   }
   75%,
-  100% {
+  99.9% {
     content: "game development";
   }
 }
