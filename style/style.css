@@ -518,7 +518,7 @@ video {
 .typing-text span::before {
   content: "full-stack development";
   color: var(--subtle);
-  animation: words 15s infinite;
+  animation: words 20s infinite;
 }
 
 .typing-text span::after {
