@@ -424,11 +424,8 @@ body.menu-open main {
   border: 1px solid var(--border);
 }
 
-img {
-  filter: grayscale(1);
-}
-
-video {
+.content img,
+.content video {
   filter: grayscale(1);
 }
 
@@ -442,7 +439,7 @@ video {
   }
   .content:hover img,
   .content:hover video {
-    filter: blur(4px);
+    filter: grayscale(0) blur(2.5px);
   }
 }
 
